@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	background-color: #1A1818;
+}
+:root {
+	--primary-color:  #f44040;
+	--secondary-color: #black;
+	--primary-hover-color: #f44040;
+	
+}
+.primary-color{
+	color: var(--primary-color);
+}
+.secondary-color{
+	color: var(--secondary-color);
+	color: black;
+}
+.container{
+	width: auto;
+	height: auto;
+	margin: 10px;
+	background: none;
+}
+nav{
+	margin-top: -10px;
+	background: black;
+	color: aliceblue;
+	box-shadow: 0px 0px 8px 5px black; 
+	padding-bottom: 10px;
+	width: 100%;
+	height: 70px;
+}
+nav .container{
+	display: flex;
+	align-items: center;
+	background-color: none;
+	height: 100%;
+	padding-bottom: 10px;
+}
+.logo-name{
+	
+	background-color: none;
+	margin: 10px;
+	width: 20%;
+	height: 100%;
+	text-align: center;
+	color: aliceblue;
+	
+	
+}
+.logo-name h1{
+	line-height: 1.2;
+	letter-spacing: 2px;
+	font-size: 50px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif" !important;
+	
+	
+}
+.nav-link{
+	margin-left: auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	color: var(--secondary-color);
+	text-transform: uppercase;
+	background-color: none;
+	position: relative;
+	width: 50%;
+	height: 100%;
+	display: flex;
+}
+.nav-link ul{
+	display: flex;
+	list-style: none;
+	width: 70%;
+	background-color: none;
+	
+}
+.nav-link li{
+	padding-right: 0px;
+	transition: color 0.3s ease-in-out ;
+	margin: auto;
+	margin-left: -10px;
+	background-color: none;
+	
+	
+}
+.active,
+.nav-link li:hover{
+	color: var(--primary-color);
+}
+.search{
+	
+	width: 38%;
+	height: 90%;
+	background-color: none;
+	border-radius: 20px;
+	margin: auto;
+	display: flex;
+	
+}
+.search-icon{
+	
+	width: 20%;
+	height: 90%;
+	padding: 0 10px 10% 0;
+	margin: 11px 0px;
+	border-radius: 0 20px 20px 0;
+	background: white;
+	color: #827B7B;
+	text-align: center;
+	font-size: 180% !important;
+	
+}
+.search-icon:hover{
+	color: black;
+}
+.search-bar{
+	width: 70%;
+	height: 95%;
+	text-align: center;
+	margin: 10px;
+	margin-right: 0px;
+	border-radius: 20px 0px 0px 20px;
+	border: 1px solid #000000;
+	font-family: alice;
+}
+.footer{
+	background-color: black;
+	width: 100%;
+	height: 80px;
+	display: flex;
+	color: aliceblue;
+	padding-bottom: 20px;
+}
+.footer h2{
+	line-height: 1.5;
+	letter-spacing: 1px;
+	font-size: 40px;
+	margin-left: -20px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif" !important;
+}
+.footer h5{
+	margin: 20px 10px 10px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
