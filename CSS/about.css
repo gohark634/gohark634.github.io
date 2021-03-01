@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main-container{
+	width: 90%;
+	height: 510px;
+	
+	margin: auto;
+}
+.nomood{
+	display: flex;
+}
+.nomood h1{
+	font-size: 150px;
+}
+.red{
+	color: red;
+}
+.green{
+	color: green
+}
+.blue{
+	color: blue
+}
+.yellow{
+	color: yellow
+}
+.white{
+	color: white
+}

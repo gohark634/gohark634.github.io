@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+.heading{
+	margin: 20px;
+}
+.box{
+	width: 50%;
+	height: auto;
+	margin: 30px auto;
+	color: aliceblue;
+	background-color: none;
+	border: 3px solid white;
+	border-radius: 10px;
+	
+}
+.data{
+	display: flex;
+	margin-left: 30px;
+	line-height: 3.5;
+}
+.data-name{
+	width: 20%;
+}
+.box input{
+	margin: 8px auto;
+	border-radius: 10px;
+	font-family: "aguafina-script";
+}
+.box input[type="text"]{
+	width: 250px;
+	height: 30px;
+	font-size: 15px;
+	
+}
+.box input[placeholder]{
+	margin-left: 15px;
+	font: 400;
+	text-align: justify;
+}
+.box b{
+	margin-left: 10px;
+	letter-spacing: 1px;
+	font-size: 120%;
+}
+.box select{
+	margin: 10px 15px  auto;
+	padding-right: 10px;
+	height: 30px;
+	border-radius: 20px;
+}
+
+.box select option{
+	font-family: "alfa-slab-one";
+}
+.box input[type="checkbox"]{
+	margin: 10px 10px auto;
+	
+}
+.button{
+	margin: 30px 10px 20px 27%;
+	
+}
+.button input{
+	border-radius: 50px;
+	border: 1.5px solid black;
+}
+.btn{
+	text-transform: uppercase;
+	
+	color: black;
+	padding: 10px 20px;
+	background-color: #BDBDBD;
+	font-weight: 400;
+	transition: background-color 0.3s linear;
+	
+}
+.btn:hover{
+	color: white;
+	background-color: black;
+	border: 1.5px solid white;
+}
